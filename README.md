@@ -1,5 +1,6 @@
 # FaceMosaic
-画像から人物を検出しモザイク処理
+
+画像から自動で人物を検出しモザイク処理を施します．
 
 ## インストール
 
@@ -18,6 +19,22 @@ pip install python-opencv
 ```
 pip install matplotlib
 ```
+
+## 使い方
+
+```
+python FaceMosaic.py -i INPUT_DIRECTORY -o OUTPUT_DIRECTORY
+```
+
+```
+python FaceMosaic.py --help
+```
+
+## サンプル
+
+![元画像](sample/woman.jpg)
+
+![モザイク画像](output/mosaic_woman.jpg)
 
 ## サンプル画像について
 
